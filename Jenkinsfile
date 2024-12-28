@@ -1,8 +1,8 @@
-pipeline {
+pipeline{
     agent any
-    stages {
+    stages{
         stage("checkout Code"){
-            steps {
+            steps{
                 git-url:'https://github.com/itsofficialpawan/pam.git',branch:'main'
             }
         }
